@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="./style.css" class="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="center">Typing Game</h1>
+    <div class="view-high-score center"> 
+        <button type="button" id="view-high-score">View high-scores</button>
+    </div>
+    <div class="results center">
+        <table id = "results" class="center">
+            <tr>
+                <th>Player</th>
+                <th>Time</th>
+            </tr>
+        </table>
+    </div>
+    <p>Practice your typing skills with a quote from Sherlock Holmes. Click Start to begin!</p>
+    <p id="quote"></p>
+    <p id="message"></p>
+    <div>
+        <input type="text" aria-label="current word" id="typed-value" placeholder="Enter the highlighted word"/>
+        <br>
+        <button type="button" id="start">Start</button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

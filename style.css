@@ -1,0 +1,62 @@
+.highlight {
+    background-color: yellow;
+}
+
+.error {
+    background-color: rgb(221, 147, 147);
+    border: red;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace ;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#start {
+    font-size: 18px;
+    background-color: rgb(126, 219, 90);
+    color: honeydew;
+    border-style: double;
+    border-color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#message {
+    background-color: lawngreen;    
+}
+
+#view-high-score {
+    /* position: relative;
+    left: 44%; */
+    font-size: 18px;
+    background-color:cornflowerblue;
+    color: honeydew;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+}
+
+.results {
+    display: none !important;
+}
+table {
+    border: 1px solid powderblue;
+    position: relative;
+    top: 10px;
+    padding: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+td,tr,th {
+    border: 1px solid powderblue;
+    width: 100%;
+    padding: 5px 45px;
+}
